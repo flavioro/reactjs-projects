@@ -7,6 +7,10 @@ ReactJs Projects
 
 - https://codesandbox.io/s/8k2kvlnly0?file=/src/index.js
 
+- https://codesandbox.io/s/github/the-road-to-learn-react/react-list-component/tree/master/?fontsize=14&file=/src/components/ListScrollToItem.js
+
 
 **Examples**
  - https://github.com/drcmda/the-substance
+ 
+ -Scroll a component-into-view (https://robinvdvleuten.nl/blog/scroll-a-react-component-into-view/)
