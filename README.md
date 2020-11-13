@@ -14,3 +14,5 @@ ReactJs Projects
  - https://github.com/drcmda/the-substance
  
  -Scroll a component-into-view (https://robinvdvleuten.nl/blog/scroll-a-react-component-into-view/)
+ 
+ - Scroll to an element on click in React js - https://medium.com/how-to-react/scroll-to-an-element-on-click-in-react-js-8424e478bb9
