@@ -1,6 +1,49 @@
 # R E A C T - J S - projects ![](https://www.mundojs.com.br/wp-content/uploads/2020/09/jsxComponentsProps.png)
 ReactJs Projects
 
+### Mapped Select option in React
+```js
+import React from "react";
+
+const options = [
+  {
+    label: "Apple",
+    value: "apple",
+  },
+  {
+    label: "Mango",
+    value: "mango",
+  },
+  {
+    label: "Banana",
+    value: "banana",
+  },
+  {
+    label: "Pineapple",
+    value: "pineapple",
+  },
+];
+
+class App extends React.Component {
+  render() {
+    return (
+      <div id="App">
+        <div className="select-container">
+          <select>
+            {options.map((option) => (
+              <option value={option.value}>{option.label}</option>
+            ))}
+          </select>
+        </div>
+      </div>
+    );
+  }
+}
+
+export default App;
+```
+
+
 **Use ReactJs online**
 
 - https://stackblitz.com/edit/react-ls1dwp?file=index.js
